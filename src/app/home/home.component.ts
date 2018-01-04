@@ -7,21 +7,21 @@ import { Component, OnInit, Input, Output, EventEmitter } from '@angular/core';
 })
 export class HomeComponent implements OnInit {
   @Input() homeObject;
-  @Output() onYell = new EventEmitter();
+  /*@Output() onYell = new EventEmitter();*/
 
   homeTitle = 'Welcome to Home!';
-  myString = 'I love chicken';
-  myBoolean = 'true';
+  /*myString = 'I love chicken';
+  myBoolean = 'true';*/
   object = { name:"Sumanyu",
              belt:"Black"};
-  alertMe(){
+  /*alertMe(){
     alert("You just clicked a button!");
   }
 
   fireYellEvent(e){
     this.onYell.emit(e);
     console.log(e);
-  }
+  }*/
   constructor() { }
 
   ngOnInit() {

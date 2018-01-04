@@ -4,12 +4,12 @@ import { Routes,RouterModule } from '@angular/router';
 
 export const APP_ROUTES:Routes =[
 {
-    path: 'home',
+    path: '',
     component: HomeComponent
 },
 {
     path: 'directory',
-    component:DirectoryComponent
+    component: DirectoryComponent
 }
 ]
 
