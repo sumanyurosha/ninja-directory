@@ -1,7 +1,8 @@
 import{HomeComponent} from './home/home.component';
 import{DirectoryComponent} from './directory/directory.component'
+import { Routes,RouterModule } from '@angular/router';
 
-export const APP_ROUTES =[
+export const APP_ROUTES:Routes =[
 {
     path: 'home',
     component: HomeComponent
@@ -11,3 +12,5 @@ export const APP_ROUTES =[
     component:DirectoryComponent
 }
 ]
+
+export const APP_ROUTES_PROVIDER = RouterModule.forRoot(APP_ROUTES);
